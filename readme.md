@@ -2,8 +2,8 @@
 
 ## Installation
 
-1. Create `packages/yourname` folder
-2. clone this repository:
+1. Create `packages/yourname` folder and `cd` into it.
+2. Clone this repository:
 
     `git clone git://github.com/andyjessop/laravel5-starter-package.git starter`
 
