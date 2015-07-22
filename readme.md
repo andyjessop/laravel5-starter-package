@@ -5,7 +5,7 @@
 1. Create `packages/yourname` folder
 2. clone this repository:
 
-    git clone add/path/Andy!!
+    git clone git://github.com/andyjessop/laravel5-starter-package.git starter
 
 3. Change namespaces to your own in the following files:
 
