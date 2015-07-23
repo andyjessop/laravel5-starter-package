@@ -39,13 +39,13 @@ class StarterServiceprovider extends ServiceProvider{
 
 	public function register()
 	{
-		$this->registerContact();
+		$this->registerStarter();
 		config([
 			'config/starter.php',
 		]);
 	}
 
-	private function registerContact()
+	private function registerStarter()
 	{
 		$this->app->bind('starter',function($app){
 			return new Starter($app);
