@@ -16,10 +16,10 @@ class StarterServiceprovider extends ServiceProvider{
 
 	public function boot()
 	{
-		$this->loadViewsFrom(realpath(__DIR__.'/../views'), 'starter');
+		$this->loadViewsFrom(realpath(__DIR__.'/../resources/views'), 'starter');
 		$this->setupRoutes($this->app->router);
 		$this->publishes([
-				__DIR__.'/config/starter.php' => config_path('starter.php'),
+			__DIR__.'/../config/starter.php' => config_path('starter.php'),
 		]);
 	}
 
@@ -41,7 +41,7 @@ class StarterServiceprovider extends ServiceProvider{
 	{
 		$this->registerContact();
 		config([
-				'config/starter.php',
+			'config/starter.php',
 		]);
 	}
 

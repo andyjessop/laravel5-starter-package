@@ -9,6 +9,6 @@ class StarterController extends Controller
 {
 	public function index()
 	{
-		return view('starter::test')->with('message', Config::get("starter.message"));
+		return view('starter::test')->with('message', config('starter.message'));
 	}
 }
