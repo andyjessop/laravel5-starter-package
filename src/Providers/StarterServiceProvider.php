@@ -1,6 +1,6 @@
 <?php
 
-namespace	AndyJessop\Starter\Providers;
+namespace AndyJessop\Starter\Providers;
 
 use Illuminate\Support\ServiceProvider;
 use Illuminate\Routing\Router;
@@ -9,7 +9,7 @@ use Config;
 use Lang;
 use View;
 
-class StarterServiceprovider extends ServiceProvider{
+class StarterServiceProvider extends ServiceProvider{
 
 	/**
 	 * Indicates if loading of the provider is deferred.
