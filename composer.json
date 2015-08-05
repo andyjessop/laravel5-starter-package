@@ -1,5 +1,5 @@
 {
-    "name": "andyjessop/l5-starter-package",
+    "name": "andyjessop/laravel5-starter-package",
     "description": "A starter package for laravel 5",
     "license": "MIT",
     "type": "library",
