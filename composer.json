@@ -1,0 +1,16 @@
+{
+    "name": "andyjessop/starter",
+    "description": "A starter package for laravel 5",
+    "license": "MIT",
+    "type": "library",
+    "require": {
+        "php": ">=5.5.9",
+        "laravel/framework": "5.1.*",
+        "laravelcollective/html": "5.1.*"
+     },
+    "autoload": {
+        "psr-4": {
+            "AndyJessop\\Starter\\": "src/"
+        }
+    }
+}
